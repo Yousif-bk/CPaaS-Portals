@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ECM Platform Admin Portal Test</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4dc9be56-139a-47c2-9a8a-fbb7d752a4f9</testCaseGuid>
+</TestCaseEntity>
