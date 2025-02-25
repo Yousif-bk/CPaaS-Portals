@@ -81,14 +81,14 @@ class JiraTestSuiteListener {
 		RequestObject jiraRequest = ObjectRepository.findTestObject('Jira API/Create Issue OR')
 	
 	 String requestBody = JsonOutput.toJson([
-		serviceDeskId       : "12",
-		requestTypeId       : "104",
+		serviceDeskId       : "9",
+		requestTypeId       : "93",
 		requestFieldValues  : [
 			summary         : summary,
 			description     : description,
-			customfield_10167: [
-				value       : "Technical",
-				child       : [value: "SMS Related"]
+			customfield_10132: [
+				value       : "Technical Issue",
+				child       : [value: "Alarm"]
 			],
 			priority        : [name: "Low"],
 			customfield_10334: [value: "Bot"],
