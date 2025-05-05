@@ -82,7 +82,7 @@ class JiraTestSuiteListener {
 	
 	 String requestBody = JsonOutput.toJson([
 		serviceDeskId       : "9",
-		requestTypeId       : "93",
+		requestTypeId       : "456",
 		requestFieldValues  : [
 			summary         : summary,
 			description     : description,
