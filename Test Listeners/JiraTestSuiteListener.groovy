@@ -68,7 +68,7 @@ class JiraTestSuiteListener {
 		
 		
 
-		def summary = "Test Suite Execution Report: ${testSuiteId}"
+		def summary = "Health Check Report: CPaaS Portals"
 		def description = "Test Execution Summary:\n\n${testResultsText}"
 
 		WS.comment("Test summary: " + summary)
